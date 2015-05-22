@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            BlackDoc
+tagline:          Black Theme for Jekyll
+description:      "A two-column black theme with a scrolling sidebar. Ideal for sites requiring a master-detail layout, e.g. documentation, cheatsheets, lyrics, notes..."
+url:              https://github.com/karloespiritu/blackdoc
+baseurl:          /
+
+author:
+  name:           'Karlo Espiritu'
+  url:            https://twitter.com/karloespiritu
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/karloespiritu/blackdoc
