@@ -62,6 +62,8 @@ To create your own theme, look to the Themes section of [included CSS file](http
 
 ### Reverse layout
 
+![BlackDoc screenshot](https://raw.githubusercontent.com/karloespiritu/blackdoc/master/public/images/reverse-screenshot.jpg)
+
 BlackDoc's page orientation can be reversed with a single class.
 
 ```html
@@ -76,12 +78,11 @@ BlackDoc's page orientation can be reversed with a single class.
 - <https://github.com/karloespiritu>
 - <https://twitter.com/karloespiritu>
 
-
 ## License
 
 Open sourced under the [MIT license](LICENSE.md).
 
-\m/\m/
+\m/
 
 ## Thanks
 
