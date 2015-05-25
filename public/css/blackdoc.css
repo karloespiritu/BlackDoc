@@ -60,6 +60,22 @@ a:hover {
   color: #caad00;
 }
 
+.btn {
+  display: inline-block;
+  padding: .25rem 1rem;
+  font-family: "PT Sans", sans-serif;
+  color: #ebcb8b;
+  border: .1rem solid #32343c;
+  border-radius: .1rem;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #26282d;
+  background-color: #ebcb8b;
+  border-color: #ebcb8b;
+}
+
 strong, b {
   color: #848471;
 }
