@@ -2,7 +2,7 @@
 .highlight .c { color: #999; } /* Comment */
 .highlight .err { color: #a00; background-color: #faa } /* Error */
 .highlight .k { color: #069; } /* Keyword */
-.highlight .o { color: #555 } /* Operator */
+.highlight .o { color: #999 } /* Operator */
 .highlight .cm { color: #09f; font-style: italic } /* Comment.Multiline */
 .highlight .cp { color: #099 } /* Comment.Preproc */
 .highlight .c1 { color: slategray; } /* Comment.Single */
@@ -34,7 +34,7 @@
 .highlight .ne { color: #c00; } /* Name.Exception */
 .highlight .nf { color: #c0f } /* Name.Function */
 .highlight .nl { color: #99f } /* Name.Label */
-.highlight .nx { color: #f8f8f2 } /* Javascript label */
+.highlight .nx { color: #ccc } /* Javascript label */
 .highlight .nn { color: #0cf; } /* Name.Namespace */
 .highlight .nt { color: #2f6f9f; } /* Name.Tag */
 .highlight .nv { color: #066 } /* Name.Variable */
