@@ -3,6 +3,9 @@
     <div class="sidebar-about">
       <h1>
         <a href="{{ site.baseurl }}">
+          {% if site.logo %}
+            <img src="{{ site.logo }}"></img>"
+          {% endif %}  
           {{ site.title }}
         </a>
       </h1>
