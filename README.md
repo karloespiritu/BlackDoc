@@ -58,7 +58,7 @@ To use a theme, add anyone of the available theme classes to the `<body>` elemen
 </body>
 ```
 
-To create your own theme, look to the Themes section of [included CSS file](https://github.com/karloespiritu/blackdoc/blob/master/public/css/blackcoc.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
+To create your own theme, look to the Themes section of [included CSS file](https://github.com/karloespiritu/blackdoc/blob/master/public/css/blackdoc.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
 
 ### Reverse layout
 
