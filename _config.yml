@@ -1,7 +1,8 @@
+# Plugins
+gems:             ['jekyll-paginate', 'jekyll-gist', 'jekyll-github-metadata']
+
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-gems:             [jekyll-paginate, jekyll-gist]
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
