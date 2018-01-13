@@ -7,7 +7,7 @@ title:            BlackDoc
 tagline:          Black Theme for Jekyll
 description:      "A two-column black theme with a scrolling sidebar. Ideal for sites requiring a master-detail layout, e.g. documentation, cheatsheets, lyrics, notes..."
 url:              https://github.com/karloespiritu/blackdoc
-baseurl:
+baseurl:          /
 
 author:
   name:           Karlo Espiritu
