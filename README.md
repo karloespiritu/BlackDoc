@@ -35,11 +35,11 @@ Download the zip file or clone the BlackDoc repo.
 $ git clone git@github.com:karloespiritu/BlackDoc.git mysite
 $ cd mysite
 ```
-Make sure you have Ruby 2.0.0 or higher installed.
+Make sure you have Ruby 2.2.5 or higher installed.
 
 ```bash
 $ ruby --version
-ruby 2.x.x
+ruby 2.2.5
 ```
 
 Install bundler and install dependencies.
