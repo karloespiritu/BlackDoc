@@ -25,7 +25,7 @@ plugins:
   - jekyll-paginate
 
 # Custom vars
-version:            2.0.0
+version:            2.0.1
 
 github:
   repo:             https://github.com/karloespiritu/blackdoc

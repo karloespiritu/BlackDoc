@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-blackdoc"
-  spec.version       = "2.0.0"
+  spec.version       = "2.0.1"
   spec.authors       = ["Karlo Espiritu"]
   spec.email         = ["karloespiritu@gmail.com"]
 

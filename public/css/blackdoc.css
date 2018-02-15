@@ -10,7 +10,6 @@ ______ _            _   ______
  * Designed, built, and released under MIT license by @karloespiritu.
  */
 
-
 /*
  * Contents
  *
@@ -21,7 +20,6 @@ ______ _            _   ______
  * Themes
  * Scrollbar
  */
-
 
 /*
  * Global resets
@@ -38,16 +36,26 @@ body {
   background-color: #000000;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'EB Garamond', serif;
   color: #aaa;
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
   font-family: 'EB Garamond', serif;
-  color: #50585D;
+  color: #50585d;
   font-kerning: auto;
-  font-feature-settings: "kern","liga","dlig","hlig","cswh";
+  font-feature-settings: "kern", "liga", "dlig", "hlig", "cswh";
   font-synthesis: weight style;
 }
 
@@ -76,7 +84,8 @@ a:hover {
   border-color: #ebcb8b;
 }
 
-strong, b {
+strong,
+b {
   color: #848471;
 }
 /* Code */
@@ -91,7 +100,10 @@ pre {
   background-color: #222;
 }
 
-pre { white-space: pre; overflow: auto !important; }
+pre {
+  white-space: pre;
+  overflow: auto !important;
+}
 
 hr {
   display: block;
@@ -149,7 +161,7 @@ tbody tr:nth-child(odd) th {
 /* Gist */
 .gist-data {
   background-color: #222 !important;
-  border-bottom: 1px solid #333 !important;;
+  border-bottom: 1px solid #333 !important;
 }
 .gist .markdown-body {
   color: #999 !important;
@@ -160,7 +172,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .gist-file {
-  border: 1px solid #333 !important;;
+  border: 1px solid #333 !important;
 }
 
 .gist-meta {
@@ -176,7 +188,7 @@ tbody tr:nth-child(odd) th {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
+  color: rgba(255, 255, 255, .5);
   background-color: #000;
   overflow: auto;
 }
@@ -202,7 +214,6 @@ tbody tr:nth-child(odd) th {
   margin-top: 0;
   font-family: 'Noto Serif', serif;
   font-size: 2.25rem;
-
 }
 
 /* Sidebar nav */
@@ -229,13 +240,12 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .sidebar-sticky {
-/*    position: absolute;*/
-    right:  1rem;
+    /*    position: absolute;*/
+    right: 1rem;
     bottom: 1rem;
-    left:   1rem;
+    left: 1rem;
   }
 }
-
 
 /* Container
  *
@@ -244,22 +254,22 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;
+  padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
-    margin-left: 20rem;
-    margin-right: 2rem;
+    max-width: 95%;
+    margin-left: 18rem;
+    margin-right: 0rem;
   }
 }
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
-    margin-right: 4rem;
+    margin-left: 18rem;
+    margin-right: 0rem;
   }
 }
 
@@ -300,8 +310,6 @@ a.sidebar-nav-item:focus {
     margin-right: 22rem;
   }
 }
-
-
 
 /*
  * Themes
@@ -390,20 +398,19 @@ a.sidebar-nav-item:focus {
 }
 ::-webkit-scrollbar-button {
   width: 8px;
-  height:5px;
+  height: 5px;
 }
 ::-webkit-scrollbar-track {
   background: #333;
   border: thin solid #111;
   /*box-shadow: 0px 0px 3px #111 inset;*/
-  border-radius:10px;
+  border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background:#222;
+  background: #222;
   border: thin solid #222;
-  border-radius:10px;
+  border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background:#7d7d7d;
+  background: #7d7d7d;
 }
-
