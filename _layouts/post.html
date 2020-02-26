@@ -2,24 +2,40 @@
 layout: default
 ---
 
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
-  {{ content }}
-</div>
+<main id="main" class="main-content" aria-label="Content">
+  <article class="h-entry">
+    {% include page-image.html %}
+    <div class="page-wrapper">
+      <header class="page-header">
+        {% assign title = page.title | markdownify | strip_html %}
+        {% if page.link %}
+          <h1 id="page-title" class="page-title p-name"><a href="{{ page.link }}">{{ title }} <span class="link-arrow">&rarr;</span></a></h1>
+        {% else %}
+          <h1 id="page-title" class="page-title p-name">{{ title }}</h1>
+        {% endif %}
+      </header>
 
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ site.baseurl }}{{ post.url | remove_first: '/'}}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+      <div class="page-sidebar">
+        {% include page-author.html %}
+        {% include page-categories.html %}
+        {% include page-tags.html %}
+      </div>
+
+      <div class="page-content">
+        <div class="e-content">
+          {{ content }}
+        </div>
+
+        {% if page.share %}
+          {% include social-share.html %}
+        {% endif %}
+
+        {% if site.disqus.shortname %}
+          {% include disqus-comments.html %}
+        {% endif %}
+
+        {% include page-pagination.html %}
+      </div>
+    </div>
+  </article>
+</main>
